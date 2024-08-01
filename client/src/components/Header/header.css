@@ -1,0 +1,18 @@
+@import url('../../app/globals.css');
+
+.header__search { top: 13px }
+.header__search-bg { border-color: var(--bg-color-green); }
+.header__all-cate { border-right: 1px solid var(--bg-color-green); }
+.header__drop.active { opacity: 1; visibility: visible; transform: translateY(0); transition: 1s ease; }
+.header__drop.inactive { opacity: 0; visibility: hidden; transform: translateY(-20px); transition: 1s ease; }
+.search__drop.active { opacity: 1; visibility: visible; transform: translateY(0); transition: 1s ease; }
+.search__drop.inactive { opacity: 0; visibility: hidden; transform: translateY(-20px); transition: 1s ease; }
+.header__user-parent:hover .header__user-child { visibility: visible; }
+.header__user-child { visibility: hidden; }
+.nav__item-child:hover { color: var(--bg-color-green); }
+
+.nav__text { color: var(--bg-color-green); }
+.nav__main::before { content: ''; left: -20px; width: calc(100% + 20px); border-top: 1px solid black; opacity: 0.1; position: absolute; top: 110px; }
+.nav__main::after { content: ''; left: -20px; width: calc(100% + 20px); border-top: 1px solid black; opacity: 0.1; position: absolute; top: 175px; }
+.nav__parent-item:hover .nav__child-item { visibility: visible; }
+.nav__child-item { visibility: hidden; }

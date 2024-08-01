@@ -1,0 +1,5 @@
+@import url(../../app/globals.css);
+
+.slide__text { top: 50%; transform: translateY(-50%); }
+.sub__img { left: 26px; top: 50%; transform: translateY(-50%); }
+.sub__button { background-color: var(--bg-color-green); left: 270px; top: 50%; transform: translateY(-50%); }

@@ -1,0 +1,8 @@
+@import url('../../app/globals.css');
+
+.footer__text { color: var(--bg-color-green); }
+.footer__text-banner { top: 50%; transform: translateY(-50%); }
+.sub__img { left: 26px; top: 50%; transform: translateY(-50%); }
+.sub__button { background-color: var(--bg-color-green); left: 270px; top: 50%; transform: translateY(-50%); }
+.footer__item { background-color: #f4f6fa;}
+.footer__bottom::before { content: ''; opacity: 0.2; bottom: 120px; position: absolute; border-top: 1px solid black; width: calc(100% + 20px); left: -20px; }
